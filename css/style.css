@@ -18,6 +18,9 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+canvas {
+  background-color: #000B48;
+}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
