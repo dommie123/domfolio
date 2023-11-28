@@ -16,6 +16,11 @@ function determineColors() {
       dotColor: '#FF0000',
       lineColor: '#8A0000'
     }
+  } else if (window.location.pathname.includes("blizzard")) {
+    return {
+      dotColor: 'white',
+      lineColor: 'lightgray'
+    }
   } else {
     return {
       dotColor: '#add1fe',
