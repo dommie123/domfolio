@@ -1,3 +1,70 @@
 canvas {
     background-color: black;
 }
+
+#channel-intro {
+    position: absolute;
+    top: 70px;
+    margin: 25px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95vw;
+}
+
+#channel-photo {
+    border-radius: 100%;
+}
+
+#channel-title {
+    padding-top: 150px;
+}
+
+#channel-title-subheading {
+    text-wrap: wrap;
+    height: 75px;
+}
+
+#channel-stats {
+    position: absolute;
+    top: calc(450px + 8em);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#channel-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#channel-content-title-text {
+    margin-left: 25px;
+}
+
+#channel-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.channel-stat-title {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.channel-stat-text {
+    text-align: center;
+}
+
+.arrow-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    cursor: pointer;
+}
