@@ -13,6 +13,27 @@ canvas {
     /* background-image: url('../assets/Background.png'); */
 }
 
+#blizzard-mobile-link {
+    position: relative;
+    top: 30px;
+    background-color: black;
+    border-color: #11D00E;
+    color: #078807;
+    font-family: "Orbitron", "Roboto", sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    border-width: 1px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+#blizzard-mobile-link:hover {
+    background-color: #11D00E;
+    border-color: #078807;
+    color: black;
+}
+
 #blizzard-about {
     position: absolute;
     top: calc(550px + 8em);
