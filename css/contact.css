@@ -1,0 +1,31 @@
+#contact-container {
+    position: absolute;
+    top: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98vw;
+    margin: 0 20px;
+}
+
+#contact-title-text {
+    margin-top: 4em;
+}
+
+#contact-subtitle-text {
+    margin-top: 7px;
+}
+
+#discord-username-text {
+    position: relative;
+    bottom: 15px;
+}
+
+.username-text {
+    position: relative;
+    bottom: 7px;
+}
+
+.contact-header {
+    text-decoration: underline;
+}

@@ -5,24 +5,26 @@
 
 // This can be used to set the Particles Effects. Check README for more details!
 document.addEventListener('DOMContentLoaded', function () {
-  particleground(document.getElementById('particles'), {
-    dotColor: '#add1fe',
-    lineColor: '#65d8f7'
-  });
+  particleground(document.getElementById('particles'), determineColors());
   var intro = document.getElementById('intro');
   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
 }, false);
 
-
-/*
-// jQuery plugin example:
-$(document).ready(function() {
-  $('#particles').particleground({
-    dotColor: '#5cbdaa',
-    lineColor: '#5cbdaa'
-  });
-  $('.intro').css({
-    'margin-top': -($('.intro').height() / 2)
-  });
-});
-*/
+function determineColors() {
+  if (window.location.pathname.includes("youtube")) {
+    return {
+      dotColor: '#FF0000',
+      lineColor: '#8A0000'
+    }
+  } else if (window.location.pathname.includes("blizzard")) {
+    return {
+      dotColor: 'white',
+      lineColor: 'lightgray'
+    }
+  } else {
+    return {
+      dotColor: '#add1fe',
+      lineColor: '#65d8f7'
+    }
+  }
+}
