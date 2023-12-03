@@ -287,6 +287,10 @@ h2 {
   font-weight: 120;
   color: #ffffff;
   letter-spacing: 0.05em;
+  font-family: 'Orbitron', 'Syncopate', 'Consolas', sans-serif;
+}
+
+#intro > h2 {
   margin-left: 20px;
 }
 

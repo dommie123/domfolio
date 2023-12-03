@@ -1,3 +1,66 @@
 canvas {
     background-color: gray;
 }
+
+#blizzard-link {
+    position: absolute;
+    top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* background-image: url('../assets/Background.png'); */
+}
+
+#blizzard-about {
+    position: absolute;
+    top: calc(550px + 8em);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 35px;
+}
+
+#blizzard-link > h2 {
+    text-align: left;
+}
+
+#blizzard-title-text {
+    padding-top: 5em;
+}
+
+#blizzard-title-text-the {
+    text-align: center;
+}
+
+#blizzard-game-link {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+#blizzard-play-button {
+    position: relative;
+    margin-left: 80px;
+    transition-duration: 0.33s;
+    width: 150px;
+    height: 150px;
+}
+
+#blizzard-play-button:hover {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+#blizzard-golem-image {
+    transform: scale(-1, 1);
+}
+
+#blizzard-image {
+    width: 500px;
+}
