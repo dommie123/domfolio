@@ -13,10 +13,10 @@
     type="text/css">
   <script type="text/javascript" src="js/jquery.particleground.js"></script>
   <script type="text/javascript" src="js/demo.js"></script>
+
 </head>
 
 <body>
-
   <div id="particles">
     <div id="intro">
       <h2 style="font-family: 'Orbitron', 'Syncopate', 'Consolas', sans-serif; font-weight: 10;">
@@ -56,10 +56,14 @@
       </div>
       </div>
     </div>
-
   </div>
   
-
+  <script>
+    var learnMoreButton = document.getElementById("btn-learn-more");
+    learnMoreButton.addEventListener('click', () => { 
+      window.location.href = 'about-me.html';  
+    });
+  </script>
 </body>
 
 </html>
